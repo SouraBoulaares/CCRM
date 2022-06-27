@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Ciot-app>
+	<R type="IF">
+		<section type="ACTION">
+			<operator>COR</operator>
+			<service>
+				<name>Service 1</name>
+			</service>
+			<service>
+				<name>Service 2</name>
+			</service>
+			<TR type="CONTROLE">
+				<section type="ACTION">
+					<operator>COR</operator>
+					<service>
+						<name>Service 3</name>
+					</service>
+					<service>
+						<name>Service 4</name>
+					</service>
+					<service>
+						<name>service 5</name>
+					</service>
+				</section>
+				<section type="PRECOND">
+					<operator>CAND</operator>
+					<service>
+						<name>Service 6</name>
+					</service>
+					<service>
+						<name>Service 7</name>
+					</service>
+				</section>
+			</TR>
+		</section>
+		<section type="PRECOND">
+			<operator>COR</operator>
+			<service>
+				<name>Service 8</name>
+			</service>
+			<service>
+				<name>service 9</name>
+			</service>
+		</section>
+	</R>
+	<R type="IF">
+		<section type="ACTION">
+			<operator>COR</operator>
+			<service>
+				<name>Service 10</name>
+			</service>
+			<service>
+				<name>service 11</name>
+			</service>
+			<TR type="CONTROLE">
+				<section type="ACTION">
+					<operator>COR</operator>
+					<service>
+						<name>Service 12</name>
+					</service>
+					<service>
+						<name>Service 13</name>
+					</service>
+					<service>
+						<name>Service 14</name>
+					</service>
+				</section>
+				<section type="PRECOND">
+					<operator>CAND</operator>
+					<service>
+						<name>Service 15</name>
+					</service>
+					<service>
+						<name>Service 16</name>
+					</service>
+				</section>
+			</TR>
+		</section>
+		<section type="PRECOND">
+			<operator>CAND</operator>
+			<service>
+				<name>Service 17</name>
+			</service>
+			<TR type="CONTROLE">
+				<section type="ACTION">
+					<operator>COR</operator>
+					<service>
+						<name>Service 18</name>
+					</service>
+					<service>
+						<name>Service 19</name>
+					</service>
+					<service>
+						<name>Service 20</name>
+					</service>
+				</section>
+				<section type="PRECOND">
+					<operator>CAND</operator>
+					<service>
+						<name>Service 21</name>
+					</service>
+					<service>
+						<name>Service 22 </name>
+					</service>
+				</section>
+			</TR>
+		</section>
+	</R>
+</Ciot-app>
